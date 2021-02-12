@@ -15,7 +15,7 @@ define([
 	}
 
 	function restoreStyle(elm) {
-		elm.style.cssText = element.data( dataSpaceStyle ) || "";
+		elm.style.cssText = datax.data(elm,dataSpaceStyle) || "";
 		datax.removeData(elm, dataSpaceStyle );
 	}
 

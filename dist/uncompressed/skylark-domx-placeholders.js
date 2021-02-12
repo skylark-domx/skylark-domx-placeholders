@@ -103,7 +103,7 @@ define('skylark-domx-placeholders/placeholders',[
 	}
 
 	function restoreStyle(elm) {
-		elm.style.cssText = element.data( dataSpaceStyle ) || "";
+		elm.style.cssText = datax.data(elm,dataSpaceStyle) || "";
 		datax.removeData(elm, dataSpaceStyle );
 	}
 
@@ -118,8 +118,9 @@ define('skylark-domx-placeholders/create',[
 	"skylark-domx-styler",
 	"skylark-domx-noder",
 	"skylark-domx-geom",
+	"skylark-domx-data",
 	"./placeholders"
-],function(styler,noder,geom,placeholders){
+],function(styler,noder,geom,datax,placeholders){
 	// Creates a placeholder element so that the original element can be made absolute
 	function createPlaceholder( elm ) {
 		var placeholder,

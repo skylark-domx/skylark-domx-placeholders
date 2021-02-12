@@ -2,8 +2,9 @@ define([
 	"skylark-domx-styler",
 	"skylark-domx-noder",
 	"skylark-domx-geom",
+	"skylark-domx-data",
 	"./placeholders"
-],function(styler,noder,geom,placeholders){
+],function(styler,noder,geom,datax,placeholders){
 	// Creates a placeholder element so that the original element can be made absolute
 	function createPlaceholder( elm ) {
 		var placeholder,
