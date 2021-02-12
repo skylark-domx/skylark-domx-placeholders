@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define(["skylark-domx-noder","skylark-domx-data","./placeholders"],function(e,a,r,o){return o.remove=function(e){var o=r.data(elm,"placeholder");o&&(a.remove(o),r.removeData(elm,"placeholder"))}});
+define(["skylark-domx-noder","skylark-domx-data","./placeholders"],function(e,a,r){return r.remove=function(r){var o=a.data(elm,"placeholder");o&&(e.remove(o),a.removeData(elm,"placeholder"))}});
 //# sourceMappingURL=sourcemaps/remove.js.map

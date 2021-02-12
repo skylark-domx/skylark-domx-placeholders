@@ -24,10 +24,10 @@
   "license": "MIT",
   "bugs": "https://github.com/skylark-domx/skylark-domx-placeholders/issues",
   "dependencies": {
+    "skylark-domx-data": "git+https://github.com/skylark-domx/skylark-domx-data.git#master",
     "skylark-domx-geom": "git+https://github.com/skylark-domx/skylark-domx-geom.git#master",
     "skylark-domx-noder": "git+https://github.com/skylark-domx/skylark-domx-noder.git#master",
     "skylark-domx-styler": "git+https://github.com/skylark-domx/skylark-domx-styler.git#master",
-    "skylark-domx-data": "git+https://github.com/skylark-domx/skylark-domx-data.git#master",
     "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
   },
   "engines": {

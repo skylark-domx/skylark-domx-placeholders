@@ -174,7 +174,7 @@ define('skylark-domx-placeholders/remove',[
 	"skylark-domx-noder",
 	"skylark-domx-data",
 	"./placeholders"
-],function(styler,noder,datax,placeholders){
+],function(noder,datax,placeholders){
 
 	function removePlaceholder( element ) {
 		var dataKey = "placeholder",
